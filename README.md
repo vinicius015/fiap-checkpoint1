@@ -38,10 +38,21 @@ docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> fiap-checkpoint1
 
 * Executar container a partir do Docker Hub
 
+
+Profile dev
+```
+docker run -d -p 8080:8080 -e PROFILE=dev vinicius015/fiap-checkpoint1
+```
+
+Profile stg
 ```
 docker run -d -p 8080:8080 -e PROFILE=stg vinicius015/fiap-checkpoint1
 ```
 
+Profile prd
+```
+docker run -d -p 8080:8080 -e PROFILE=prd vinicius015/fiap-checkpoint1
+```
 #### Navegação
 
 - Base
