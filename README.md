@@ -25,7 +25,7 @@ git clone https://github.com/vinicius015/fiap-checkpoint1.git
 * Criação de imagem
 
 ```
-docker build -t ping .
+docker build -t fiap-checkpoint1 .
 ```
 
 * Executar container
